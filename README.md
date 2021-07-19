@@ -1,1 +1,1 @@
-# nextjs-with--configcat
+# nextjs-with-configcat
