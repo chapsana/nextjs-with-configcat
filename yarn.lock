@@ -404,6 +404,13 @@ axe-core@^4.0.2:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.3.1.tgz#0c6a076e4a1c3e0544ba6a9479158f9be7a7928e"
   integrity sha512-3WVgVPs/7OnKU3s+lqMtkv3wQlg3WxK1YifmpJSDO0E1aPBrZWlrrTO6cxRqCXLuX2aYgCljqXIQd0VnRidV0g==
 
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
+
 axobject-query@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
@@ -677,6 +684,19 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+
+configcat-common@^4.4.4:
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/configcat-common/-/configcat-common-4.4.4.tgz#562e1eb4011f41796f7901f8e4465f5226015579"
+  integrity sha512-iQuoVtL81eBSA/FnJal0f0QbqYipuN29KFY0o7RnN93zOtiZ3gf/g7NQ6SRx3L/COIjDMtfhdrwNLHoSHQ/qFA==
+
+configcat-js-ssr@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/configcat-js-ssr/-/configcat-js-ssr-3.5.0.tgz#c0870abeac426c11f72ae286dfce8132a190a9f5"
+  integrity sha512-mw5ZQuUrJYM/RAj9dWZ/mrYqBi5pI2VA91xf1BfUaaRMVRMD0WCGB96y4GdK1lB8Au0vdl929xaVkEX76wh/CA==
+  dependencies:
+    axios "^0.21.1"
+    configcat-common "^4.4.4"
 
 console-browserify@^1.1.0:
   version "1.2.0"
@@ -1305,6 +1325,11 @@ flatted@^3.1.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.1.tgz#bbef080d95fca6709362c73044a1634f7c6e7d05"
   integrity sha512-OMQjaErSFHmHqZe+PSidH5n8j3O0F2DdnVh8JB4j4eUQ2k6KvB0qGfrKIhapvez5JerBbmWkaLYUYWISaESoXg==
+
+follow-redirects@^1.10.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
+  integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
 
 foreach@^2.0.5:
   version "2.0.5"
