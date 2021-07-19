@@ -1,8 +1,20 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import * as configcat from "configcat-js-ssr";
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+  const configCatClient = configcat.createClient(process.env.CONFIGCAT_SDK_KEY || "CONFIGCAT_SDK_KEY_HERE");
+  configCatClient.getValueAsync("isMyAwesomeFeatureEnabled", false)
+.then((value) => {
+    if(value) {
+        // do_the_new_thing();
+    } else {
+        // do_the_old_thing();
+    }
+});
+
   return (
     <div className={styles.container}>
       <Head>
